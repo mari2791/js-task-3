@@ -10,4 +10,7 @@ function checkIfEligible(age) {
     }
 }
 
-
+checkIfEligible("17"); // "თქვენ არ შეგიძლიათ მართვის მოწმობის აღება"
+checkIfEligible("abc"); // "მითითებული ასაკი არასწორია!"
+checkIfEligible("25"); // "თქვენ შეგიძლიათ მართვის მოწმობის აღება"
+checkIfEligible(25); // "თქვენ შეგიძლიათ მართვის მოწმობის აღება"
